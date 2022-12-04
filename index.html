@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<meta property="og:title" content="Title">
+	<meta property="og:description" content="Description">
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="Title">
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- sidebar -->
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar__top">
+			<h2 class="sidebar__title">Logo</h2>
+		</div>
+	</div>
+	<!-- end of sidebar -->
+	<!-- header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<h3 class="header__title">Title</h3>
+			</div>
+		</div>
+	</header>
+	<!-- end of header -->
+	<div class="page">
+		<div class="page__container">
+			<div class="page-tabs page__tabs">
+				<ul class="page-tabs__list">
+					<li class="page-tabs__item page-tabs__item--active">
+						<button class="page-tabs__tab">Tab 1</button>
+					</li>
+					<li class="page-tabs__item">
+						<button class="page-tabs__tab">Tab 2</button>
+					</li>
+					<li class="page-tabs__item">
+						<button class="page-tabs__tab">Tab 3</button>
+					</li>
+					<li class="page-tabs__item">
+						<button class="page-tabs__tab">Tab 4</button>
+					</li>
+				</ul>
+				<div class="page-tabs__wrapper page-tabs__wrapper--active">
+					<form action="#" class="page-form">
+						<div class="page-form__wrapper">
+							<div class="input-group page-form__item">
+								<input type="text" class="input-group__input" placeholder="Имя">
+							</div>
+							<div class="input-group page-form__item">
+								<input type="text" class="input-group__input" placeholder="Фамилия">
+							</div>
+							<div class="input-group page-form__item">
+								<input type="text" class="input-group__input" placeholder="Поле для ввода">
+							</div>
+						</div>
+						<button class="page-form__btn btn">Далее</button>
+					</form>
+				</div>
+				<div class="page-tabs__wrapper"></div>
+				<div class="page-tabs__wrapper"></div>
+				<div class="page-tabs__wrapper"></div>
+			</div>
+		</div>
+	</div>
+	<!-- scripts -->
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
