@@ -177,21 +177,21 @@
 						<h3 class="section-heading__subtitle">Партнеры и руководители практик</h3>
 					</div>
 					<div class="team__wrapper">
-						<a href="#" class="team__item">
+						<a href="#" class="team__item modal-btn" data-id="modal-team">
 							<picture class="team__img">
 								<img src="img/team-01.jpg" alt="Image">
 							</picture>
 							<span class="team__name">наталья маркова</span>
 							<span class="team__help">Партнер</span>
 						</a>
-						<a href="#" class="team__item">
+						<a href="#" class="team__item modal-btn" data-id="modal-team">
 							<picture class="team__img">
 								<img src="img/team-02.jpg" alt="Image">
 							</picture>
 							<span class="team__name">игорь бизин</span>
 							<span class="team__help">Руководитель практики</span>
 						</a>
-						<a href="#" class="team__item">
+						<a href="#" class="team__item modal-btn" data-id="modal-team">
 							<picture class="team__img">
 								<img src="img/team-03.jpg" alt="Image">
 							</picture>
@@ -210,13 +210,13 @@
 						<p class="section-heading__description">Мы работаем со сложными задачами, требующими нестандартного подхода, и умеем деликатно подходить к особым ситуациям.</p>
 					</div>
 					<div class="projects__wrapper">
-						<a href="#" class="projects__item">
+						<a href="#" class="projects__item modal-btn" data-id="modal-project">
 							<span class="projects__name">Консультирование израильского <br>инвестиционного фонда</span>
 						</a>
-						<a href="#" class="projects__item">
+						<a href="#" class="projects__item modal-btn" data-id="modal-project">
 							<span class="projects__name">Коммерческие споры <br>по договорам подряда</span>
 						</a>
-						<a href="#" class="projects__item">
+						<a href="#" class="projects__item modal-btn" data-id="modal-project">
 							<span class="projects__name">Административные споры с <br>проверяющими органами <br>(ГИН, МГСН, ОАТИ и др)</span>
 						</a>
 					</div>
@@ -337,6 +337,68 @@
 	</div>
 	<!-- end of wrapper -->
 	<!-- modals -->
+	<div class="modal" id="modal-team">
+		<div class="modal__scroll">
+			<div class="modal__wrapper">
+				<button class="modal__close-btn modal__close" aria-label="Закрыть">
+					<svg class="modal__close-icon">
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="team-info">
+					<div class="team-info__wrapper">
+						<div class="team-info__body">
+							<h3 class="team-info__title">Наталья маркова</h3>
+							<span class="team-info__position">Юрист, кандидат юридических наук</span>
+							<div class="team-info__content content">
+								<p>
+									Наталья обладает 18-летним опытом судебной защиты интересов бизнеса и частных лиц в арбитражных судах и судах общей юрисдикции в спорах с государственными органами и в коммерческих спорах.
+									<br><br>
+									До прихода в команду Legal Matters Наталья работала в международной аудиторской компании KPMG, международной юридической фирме Noerr, а также в ведущей российской юридической компании Пепеляев Групп.<br>
+									Среди ее клиентов – крупнейшие международные и российские компании в сфере производства, нефте- и газодобычи, лизинговой деятельности, торговли, электроэнергетики, консалтинга, сельского хозяйства и др. <br>
+									Также Наталья вела научно-преподавательскую деятельность на кафедрах гражданского и административного судопроизводства в МГУ им. М. В. Ломоносова и Московском государственном юридическом университете имени О.Е Кутафина (МГЮА). Является автором научно-исследовательских работ, методических и учебных пособий по гражданскому и арбитражному процессу, автором публикаций в профессиональных и научных юридических изданиях.
+									<br><br>
+									Окончила юридический факультет и аспирантуру юридического факультета МГУ им. М.В. Ломоносова. Имеет диплом переводчика по специальности «юриспруденция».
+									<br><br>
+									Свободно владеет английским языком.
+								</p>
+							</div>
+						</div>
+						<picture class="team-info__img">
+							<img src="img/team-info.jpg" alt="Image">
+						</picture>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal__overlay"></div>
+	</div>
+	<div class="modal" id="modal-project">
+		<div class="modal__scroll">
+			<div class="modal__wrapper">
+				<button class="modal__close-btn modal__close" aria-label="Закрыть">
+					<svg class="modal__close-icon">
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="project-info">
+					<div class="project-info__wrapper">
+						<div class="project-info__body">
+							<h3 class="project-info__title">Коммерческие споры по договорам подряда</h3>
+							<div class="project-info__content content">
+								<p>
+									Команда Legal Matters представляла интересы российского общества в ряде споров, связанных с исполнением договора подряда при строительстве объекта недвижимости в г. Москве. Дела касались взыскания неосновательного обогащения по незаключенному договору подряда, а также защиты интересов застройщика в споре с теплоснабжающей организацией, которая отказывалась подключать объект недвижимости к теплоснабжению.
+									<br>
+									Юристы Legal Matters разработали стратегию защиты интересов Клиентов, проанализировали потенциальные риски, а также подготовили проекты процессуальных документов.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal__overlay"></div>
+	</div>
 	<!-- end of modals -->
 	<!-- scripts -->
 	<script src="js/vendor.min.js"></script>
